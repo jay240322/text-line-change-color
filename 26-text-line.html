@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+     <head>
+         <title>
+             nike
+         </title>
+         <style>
+             body{
+                background-color: black;
+                align-items: center;
+                align-content: center;
+                display: grid;
+                justify-content: center;
+             }
+             .main{
+                height: 100px;
+                width: 200px;
+                color: white;
+                font-size:30px;
+                display: flex;
+                align-items: center;
+                align-content: center;
+                justify-content: center;
+                margin-top: 250px;
+             }
+             .line{
+                height: 50px;
+                width: 5px;
+                background-color: blue;
+             }
+             .text{
+                margin-left: 10px;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 50px;
+             }
+             .main:hover .line{
+                   margin-left: 110px;
+                   transition: all 1.5s;
+             }
+             .main:hover .text{
+                margin-left: -140px;
+                transition: all 1.5s;
+                color:blue;
+                cursor: pointer;
+             }
+         </style>
+     </head>
+       <body>
+          <div class="main">
+              <div class="line"></div>
+              <div class="text">NIKE</div>
+          </div>
+       </body>
+</html>
